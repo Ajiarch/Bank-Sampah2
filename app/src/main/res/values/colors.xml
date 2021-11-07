@@ -8,6 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="grey">#969696</color>
+    <color name="hijau">#61BA7A</color>
     <color name="colorPrimary">#E6FBE3</color>
     <color name="colorPrimaryDark">#1E6B4B</color>
     <color name="colorAccent">#61BA7A</color>
