@@ -21,9 +21,10 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textStyle="bold"
         android:text="@string/selamat_bergabung"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="24sp"
+        android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -46,7 +47,7 @@
     <EditText
         android:id="@+id/entry2"
         android:layout_width="365dp"
-        android:layout_height="47dp"
+        android:layout_height="48dp"
         android:width="80dp"
         android:hint="Masukan Kata Sandi "
         android:importantForAutofill="no"
@@ -75,6 +76,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textStyle="bold"
         android:text="Lupa Kata Sandi ?"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -87,7 +89,7 @@
     <EditText
         android:id="@+id/entry1"
         android:layout_width="365dp"
-        android:layout_height="47dp"
+        android:layout_height="48dp"
         android:width="80dp"
         android:hint="Masukan Email "
         android:importantForAutofill="no"
@@ -131,6 +133,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textStyle="bold"
         android:text="Daftar Disini"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="16sp"
