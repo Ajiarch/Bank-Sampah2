@@ -37,6 +37,8 @@
         android:id="@+id/Caption"
         android:layout_width="289dp"
         android:layout_height="83dp"
+        android:textStyle="italic"
+        android:textSize="14dp"
         android:text="Kebersihan menjadi awal dari penilaian baik buruknya seseorang. Kepribadian yang baik akan menjaga kebersihan dirinya, lingkungannya dan sekitarnya."
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
