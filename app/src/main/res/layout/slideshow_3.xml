@@ -24,6 +24,8 @@
         android:id="@+id/Caption"
         android:layout_width="289dp"
         android:layout_height="83dp"
+        android:textStyle="italic"
+        android:textSize="14dp"
         android:text="Tujuan pembersihan bukan hanya untuk membersihkan, tetapi untuk merasakan kebahagiaan hidup dalam lingkungan itu."
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
