@@ -1,6 +1,8 @@
 package com.example.pertemuan2;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -22,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent login = new Intent(MainActivity.this, HomeActivity.class);
                 Toast toast = Toast.makeText(v.getContext(), "Login Berhasil", Toast.LENGTH_SHORT);
                 toast.show();
                 setContentView(R.layout.home);
