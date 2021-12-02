@@ -1,6 +1,7 @@
 package com.example.pertemuan2;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.viewpager.widget.ViewPager;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,14 +10,21 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.google.android.material.tabs.TabLayout;
+
 public class HomeActivity extends AppCompatActivity {
-    public Button login;
     private static final String TAG = "Main";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home);
+
+        Adapter adapter = new Adapter(getSupportFragmentManager());
+        ViewPager viewPager = findViewById(R.id.view_pager);
+        viewPager.setAdapter(adapter);
+        TabLayout tabs = findViewById(R.id.bn_main);
+        tabs.setupWithViewPager(viewPager);
     }
 
     protected void onStart(){
