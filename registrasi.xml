@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.projectakhirpmob.Home"
+    android:background="@color/warnaDasar">
+
+    <FrameLayout
+        android:id="@+id/fl_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <View
+            android:id="@+id/view"
+            android:layout_width="370dp"
+            android:layout_height="245dp"
+            android:background="@drawable/ic_rectangle_33"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="11dp"/>
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:layout_marginLeft="56dp"
+            app:srcCompat="@drawable/ic__13__converted__1"
+            tools:ignore="ContentDescription" />
+        <RelativeLayout
+            android:id="@+id/usernameinti"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="280dp">
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginLeft="11dp"/>
+
+            <EditText
+                android:id="@+id/entry_username"
+                android:layout_width="365dp"
+                android:layout_height="48dp"
+                android:layout_alignTop="@+id/username"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="24dp"
+                android:width="80dp"
+                android:hint="Masukan Username "
+                android:importantForAutofill="no"
+                android:inputType="text" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/emailinti"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="360dp">
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="11dp"
+                android:text="Email"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/entry_email"
+                android:layout_width="365dp"
+                android:layout_height="48dp"
+                android:layout_alignTop="@+id/email"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="24dp"
+                android:width="80dp"
+                android:hint="Masukan Email "
+                android:importantForAutofill="no"
+                android:inputType="text" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/passwordinti"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="440dp">
+
+            <TextView
+                android:id="@+id/password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="11dp"
+                android:text="Password"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/entry_password"
+                android:layout_width="365dp"
+                android:layout_height="48dp"
+                android:layout_alignTop="@+id/password"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="24dp"
+                android:width="80dp"
+                android:hint="Masukan Email "
+                android:importantForAutofill="no"
+                android:inputType="text" />
+        </RelativeLayout>
+        <Button
+            android:id="@+id/masukbutton"
+            android:layout_width="370dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="600dp"
+            android:layout_marginLeft="11dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="Daftar"
+            android:onClick="daftar" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sudah punya akun ?"
+            android:textSize="16sp"
+            android:layout_marginTop="660dp"
+            android:layout_marginLeft="40dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Masuk Disini"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp"
+            android:layout_marginTop="660dp"
+            android:layout_marginLeft="200dp"/>
+    </FrameLayout>
+
+</RelativeLayout>
